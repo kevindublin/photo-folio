@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <title>Inflation</title>
+        <link rel="stylesheet" href="../theme/css/main.css" />
+
+        <!--[if IE]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+	<script src="../theme/js/mousetrap.js"> </script>
+</head>
+
+<body id="index" class="home">
+<script>
+function greyoff(img)
+{
+	document.getElementById(img).className = "greyoff";
+}
+
+function greyon(img)
+{
+	document.getElementById(img).className = "greyon";
+}
+</script>
+
+        <header id="banner" class="body">
+                <h1><a href="../">K Dublin Photography </a></h1>
+                <nav><ul>
+                    <li><a href="../about/">About</a></li>
+                    <li class="active"><a href="../folio/category/inflation.html">Inflation</a></li>
+                    <li><a href="../folio/category/landscape.html">Landscape</a></li>
+                    <li><a href="../folio/category/lifestyle.html">Lifestyle</a></li>
+                    <li><a href="../folio/category/nature.html">Nature</a></li>
+                    <li><a href="../folio/category/portrait.html">Portrait</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="pagecontent" class="body">
+	<script>
+	Mousetrap.bind('left', prev);
+	Mousetrap.bind('right', next);
+
+
+	function prev(element)
+	{
+		document.getElementById('prev').click();
+	}
+	function next(element)
+	{
+		document.getElementById('next').click();
+	}
+	</script>
+  <article>
+    <header>
+	<div>
+		<div style="float:left">
+		      <h1 class="entry-title">
+		        <a href="../folio/inflation-i.html" rel="bookmark"
+		           title="Permalink to Inflation">Inflation</a>
+		      </h1>
+		</div>
+		<div style="float:right"><h2>        <abbr class="published" title="High gas prices loom in 2022">
+                San Francisco
+        </abbr>
+        </h2></div>
+	</div>
+
+	<div style="clear:both"></div>
+
+	<div style="float:right">
+         <a class= "next" href="../folio/inflation-ii.html" id="next">
+         next &#10095;
+         </a>
+	</div>
+    </header>
+    <center>
+      <p><img src="../static/images/inflation-i.jpg" alt="High gas prices loom in 2022" width=1000px /></p>
+    </center>
+
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="social">
+                        <ul>
+
+                            <li><a href="https://www.instagram.com/kevdublin/">instagram</a></li>
+                            <li><a href="https://www.twitter.com/parteverything">twitter</a></li>
+                            <li><a href="mailto:k@kdublin.com">email</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>
