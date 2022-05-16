@@ -2,6 +2,9 @@
 __pycache__/
 *.py[cod]
 
+# Update script
+update.sh
+
 # C extensions
 *.so
 
