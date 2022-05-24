@@ -3,13 +3,13 @@
 {% block content %}
 {% if articles %}
 
-    <aside id="featured" class="body">
+    <aside id="featured" class="body" style="display: flex; flex-wrap: wrap;">
 
     {% for article in articles_page.object_list %}
 
-	<div style="float:left">
+	<div style="">
 		<a href="{{ SITEURL }}/{{ article.url }}">
-		<img src="{{ article.thumbnail }}" class="bw" id="ima{{ loop.index }}" onmouseover="greyoff(this.id)" onmouseleave="greyon(this.id)" border="0" title="{{article.title}}" alt="{{ article.description }}" /></a>
+		<img src="{{ article.thumbnail }}" class="bw" id="ima{{ loop.index }}" onmouseover="greyoff(this.id)" onmouseleave="greyon(this.id)" border="0" title="{{article.title}}" alt="{{ article.description }}" style="height: 133px; object-fit: cover;" /></a>
 	</div>
         {% if loop.last %}
             {% if loop.length > 1 %}

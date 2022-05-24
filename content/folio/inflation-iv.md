@@ -10,4 +10,4 @@ prev_article: folio/inflation-iii.html
 next_article: folio/gg-city.html
 Status: published
 
-<img src="../static/images/inflation-iii.jpg" alt="Still housing isn't a right" width=1000px />
+<img src="../static/images/inflation-iv.jpg" alt="Still housing isn't a right" width=1000px />

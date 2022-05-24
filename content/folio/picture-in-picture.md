@@ -6,6 +6,7 @@ thumbnail: /static/images/picture-in-picture.jpg
 Date: 1-10-22
 location: Emerald Bay State Park, CA
 description: Landscape of Emerald Bay
+prev_article: folio/tahoe-waterfall.html
 next_article: folio/emerald-bay.html
 Status: published
 
