@@ -1,6 +1,6 @@
 Title: Picture in Picture
 Author: K Dublin
-Slug: emerald-bay
+Slug: picture-in-picture
 Category: Nature
 thumbnail: /static/images/picture-in-picture.jpg
 Date: 1-10-22
