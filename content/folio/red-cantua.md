@@ -10,4 +10,4 @@ prev_article: folio/birds-of-paradise.html
 next_article: folio/city-wish.html
 Status: published
 
-<img src="../static/images/red-cantua.jpg" alt="close up of Red Cantua flower" width=auto />
+<img src="../static/images/red-cantua.jpg" alt="close up of Red Cantua flower" width=1000px />
