@@ -6,7 +6,7 @@ thumbnail: /static/images/candlestick-point.jpg
 Date: 12-15-21
 location: San Francisco
 description: On the Shore of the Day at Candlestick Point
-prev_article: folio/bay-contemplation.html
+prev_article: folio/love-in-step.html
 next_article: folio/lone-tree.html
 Status: published
 

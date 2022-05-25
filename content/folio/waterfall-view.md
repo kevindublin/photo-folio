@@ -10,3 +10,7 @@ next_article: folio/tahoe-waterfall.html
 Status: published
 
 <img src="../static/images/waterfall-view.jpg" alt="Waterfall that flows each spring" width=1000px />
+
+<p class="poem">Winter’s end drifting <br/>
+over rocks like frogs’ song<br/>
+to glorious view</p>

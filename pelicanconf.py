@@ -7,6 +7,7 @@ PATH = 'content'
 # Static Paths
 STATIC_PATHS = ['static', 'static/images', 'static/css', 'extra/CNAME']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
+CUSTOM_CSS = 'static/css/custom.css'
 
 TIMEZONE = 'America/Los_Angeles'
 

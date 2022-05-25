@@ -7,7 +7,7 @@ Date: 12-16-21
 location: San Francisco
 description: Model stares into the San Francisco Bay
 prev_article: folio/pandemic-twilight.html
-next_article: folio/candlestick-point.html
+next_article: folio/love-in-step.html
 Status: published
 
 <img src="../static/images/bay-contemplation.jpg" alt="Model stares into the San Francisco Bay" width=1000 />
