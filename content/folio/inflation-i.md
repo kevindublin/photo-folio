@@ -6,7 +6,7 @@ thumbnail: /static/images/inflation-i.jpg
 Date: 1-5-22
 location: San Francisco
 description: High gas prices loom in 2022
-prev_article: folio/
+prev_article: folio/pretty-in-pink.html
 next_article: folio/inflation-ii.html
 Status: published
 

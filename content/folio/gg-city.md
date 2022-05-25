@@ -6,7 +6,7 @@ location: San Francisco
 description: View of the Golden Gate Bridge and San Francisco Skyline at Sunset
 Slug: gg-city
 thumbnail: /static/images/gg-city.jpg
-prev-article: folion/inflation-iv.html
+prev_article: folio/inflation-iv.html
 next_article: folio/gg-love.html
 Status: published
 

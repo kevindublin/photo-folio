@@ -4,7 +4,7 @@ Slug: waterfall-view
 Category: Nature
 thumbnail: /static/images/waterfall-view.jpg
 Date: 1-12-22
-location: Emerald Bay State Park, CA
+location: Eagle Falls Lake Tahoe, CA
 description: View of Emerald Bay from the waterfall
 next_article: folio/tahoe-waterfall.html
 Status: published
@@ -12,5 +12,5 @@ Status: published
 <img src="../static/images/waterfall-view.jpg" alt="Waterfall that flows each spring" width=1000px />
 
 <p class="poem">Winter’s end drifting <br/>
-over rocks like frogs’ song<br/>
+over rocks like frog’s song<br/>
 to glorious view</p>

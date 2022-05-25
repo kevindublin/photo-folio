@@ -10,4 +10,4 @@ prev_article: folio/bay-contemplation.html
 next_article: folio/candlestick-point.html
 Status: published
 
-<img src="../static/images/love-in-step.jpg" alt="Couple walks their dog in perfect step" width=1000 />
+<img src="../static/images/love-in-step.jpg" alt="Couple walks their dog in perfect step" width=auto />
