@@ -3,15 +3,14 @@
 <head>
         <meta charset="utf-8" />
         <title>Lost Highways: Main St. Opera House</title>
-        <link rel="stylesheet" href="https://kdublin.com/theme/css/main.css" />
-        <link rel="stylesheet" href="https://kdublin.com/static/css/custom.css" />
-        <link href="https://kdublin.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="K Dublin Photography Atom Feed" />
+        <link rel="stylesheet" href="../theme/css/main.css" />
+        <link rel="stylesheet" href="../static/css/custom.css" />
 
         <!--[if IE]>
             <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
 
-	<script src="https://kdublin.com/theme/js/mousetrap.js"> </script>
+	<script src="../theme/js/mousetrap.js"> </script>
 </head>
 
 <body id="index" class="home">
@@ -28,15 +27,15 @@ function greyon(img)
 </script>
 
         <header id="banner" class="body">
-                <h1><a href="https://kdublin.com/">K Dublin Photography </a></h1>
+                <h1><a href="../">K Dublin Photography </a></h1>
                 <nav><ul>
-                    <li><a href="https://kdublin.com/about/">About</a></li>
-                    <li><a href="https://kdublin.com/folio/category/event.html">Event</a></li>
-                    <li><a href="https://kdublin.com/folio/category/inflation.html">Inflation</a></li>
-                    <li><a href="https://kdublin.com/folio/category/landscape.html">Landscape</a></li>
-                    <li class="active"><a href="https://kdublin.com/folio/category/lifestyle.html">Lifestyle</a></li>
-                    <li><a href="https://kdublin.com/folio/category/nature.html">Nature</a></li>
-                    <li><a href="https://kdublin.com/folio/category/portrait.html">Portrait</a></li>
+                    <li><a href="../about/">About</a></li>
+                    <li><a href="../folio/category/event.html">Event</a></li>
+                    <li><a href="../folio/category/inflation.html">Inflation</a></li>
+                    <li><a href="../folio/category/landscape.html">Landscape</a></li>
+                    <li class="active"><a href="../folio/category/lifestyle.html">Lifestyle</a></li>
+                    <li><a href="../folio/category/nature.html">Nature</a></li>
+                    <li><a href="../folio/category/portrait.html">Portrait</a></li>
                 </ul></nav>
         </header><!-- /#banner -->
 <section id="pagecontent" class="body">
@@ -59,7 +58,7 @@ function greyon(img)
 	<div>
 		<div style="float:left">
 		      <h1 class="entry-title">
-		        <a href="https://kdublin.com/folio/lost-highways2.html" rel="bookmark"
+		        <a href="../folio/lost-highways2.html" rel="bookmark"
 		           title="Permalink to Lost Highways: Main St. Opera House">Lost Highways: Main St. Opera House</a>
 		      </h1>
 		</div>
@@ -72,89 +71,19 @@ function greyon(img)
 	<div style="clear:both"></div>
 
 	<div style="float:left">
-         <a  class= "prev" href="https://kdublin.com/folio/lost-highways1.html" id="prev">
+         <a  class= "prev" href="../folio/lost-highways1.html" id="prev">
          &#10094; prev
          </a>
 	</div>
 	<div style="float:right">
-         <a class= "next" href="https://kdublin.com/folio/lost-highways3.html" id="next">
+         <a class= "next" href="../folio/lost-highways3.html" id="next">
          next &#10095;
          </a>
 	</div>
     </header>
     <center>
       <p><img src="../static/images/lost-highways2.jpg" alt="Lost Highways: Main St. Opera House" width=1000px /></p>
-      
-      <div id="paypal-button-container"></div>
-        <!-- Sample PayPal credentials (client-id) are included -->
-        <script src="https://www.paypal.com/sdk/js?client-id=test&currency=USD&intent=capture&enable-funding=venmo" data-sdk-integration-source="integrationbuilder"></script>
 
-        <script>
-          const fundingSources = [
-            paypal.FUNDING.PAYPAL,
-              paypal.FUNDING.VENMO,
-              paypal.FUNDING.CARD
-            ]
-
-          for (const fundingSource of fundingSources) {
-            const paypalButtonsComponent = paypal.Buttons({
-              fundingSource: fundingSource,
-
-              // optional styling for buttons
-              // https://developer.paypal.com/docs/checkout/standard/customize/buttons-style-guide/
-              style: {
-              	layout: 'horizontal',
-              	color: 'black',
-                shape: 'rect',
-                width: 50,
-              },
-
-              // set up the transaction
-              createOrder: (data, actions) => {
-                // pass in any options from the v2 orders create call:
-                // https://developer.paypal.com/api/orders/v2/#orders-create-request-body
-                const createOrderPayload = {
-                  purchase_units: [
-                    {
-                      amount: {
-                        value: '88.44',
-                      },
-                    },
-                  ],
-                }
-
-                return actions.order.create(createOrderPayload)
-              },
-
-              // finalize the transaction
-              onApprove: (data, actions) => {
-                const captureOrderHandler = (details) => {
-                  const payerName = details.payer.name.given_name
-                  console.log('Transaction completed!')
-                }
-
-                return actions.order.capture().then(captureOrderHandler)
-              },
-
-              // handle unrecoverable errors
-              onError: (err) => {
-                console.error(
-                  'An error prevented the buyer from checking out with PayPal',
-                )
-              },
-            })
-
-            if (paypalButtonsComponent.isEligible()) {
-              paypalButtonsComponent
-                .render('#paypal-button-container')
-                .catch((err) => {
-                  console.error('PayPal Buttons failed to render')
-                })
-            } else {
-              console.log('The funding source is ineligible')
-            }
-          }
-        </script>
       
     </center>
     
@@ -165,7 +94,6 @@ function greyon(img)
         <section id="extras" class="body">
                 <div class="social">
                         <ul>
-                            <li><a href="https://kdublin.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
 
                             <li><a href="https://www.instagram.com/kdublinphoto/">instagram</a></li>
                             <li><a href="https://www.twitter.com/parteverything">twitter</a></li>
