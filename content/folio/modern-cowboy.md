@@ -1,7 +1,7 @@
 Title: Modern Cowboy
 Author: K Dublin
 Slug: modern-cowboy
-Category: Portrait
+Category: Lifestyle
 thumbnail: /static/images/modern-cowboy.jpg
 Date: 12-29-21
 location: San Francisco

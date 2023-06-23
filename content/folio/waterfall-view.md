@@ -6,6 +6,7 @@ thumbnail: /static/images/waterfall-view.jpg
 Date: 1-12-22
 location: Eagle Falls Lake Tahoe, CA
 description: View of Emerald Bay from the waterfall
+prev_article: folio/lost-highways4.html
 next_article: folio/tahoe-waterfall.html
 Status: published
 

@@ -7,7 +7,7 @@ Date: 12-12-21
 location: Palo Alto
 description: Bay Area peninsula trail
 prev_article: folio/hiking-break.html
-next_article: folio/abstract-field.html
+next_article: folio/impressionist-field.html
 Status: published
 
 <img src="../static/images/arastradero-loop.jpg" alt="Arastradero Creek Loop Hiking Trail" width=1000px />

@@ -1,7 +1,7 @@
 Title: Sunset Cigarette
 Author: K Dublin
 Slug: sunset-cigarette
-Category: Portrait
+Category: Lifestyle
 thumbnail: /static/images/sunset-cigarette.jpg
 Date: 12-28-21
 location: San Francisco

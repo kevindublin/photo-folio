@@ -50,9 +50,9 @@ LINKS = (('Writing', 'https://kevindublin.com/'),
         )
 
 # Social widget
-SOCIAL = (('instagram', 'https://www.instagram.com/kevdublin/'),
+SOCIAL = (('instagram', 'https://www.instagram.com/kdublinphoto/'),
           ('twitter', 'https://www.twitter.com/parteverything'),
-          ('email', 'mailto:k@kdublin.com'),)
+          ('email', 'mailto:photography@kdublin.com'),)
 
 DEFAULT_PAGINATION = 12
 
