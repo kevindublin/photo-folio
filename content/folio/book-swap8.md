@@ -7,7 +7,7 @@ Date: 6-11-23
 location: El Rio San Francisco, CA
 description: 826 Valencia Book Swap at El Rio
 prev_article: folio/book-swap7.html
-next_article: folio/heavenly-sky.html
+next_article: folio/desert-american-buffalo.html
 Status: published
 
 <img src="../static/images/book-swap8.jpg" alt="826 Valencia Book Swap" width=1000px />

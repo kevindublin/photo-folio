@@ -7,7 +7,7 @@ Date: 6-20-23
 location: Salesforce Park San Francisco, CA
 description: Purple Flowers in Salesforce Park
 prev_article: folio/slack-office.html
-next_article: folio/shadow-of-purple-flowers.html
+next_article: folio/book-swap1.html
 Status: published
 
 <img src="../static/images/shadow-of-purple-flowers.jpg" alt="Shadows on Purple Flowers in Salesforce Park" width=1000px />
